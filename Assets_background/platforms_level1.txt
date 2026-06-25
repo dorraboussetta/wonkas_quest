@@ -1,0 +1,31 @@
+# Level 1 platforms
+# Format: type  x  y  w  h  vel_x  vel_y  image
+# type: 0=fixed, 1=moving, 2=destructible
+# vel_x and vel_y are only used for moving platforms, set to 0 otherwise
+# Lines starting with # are comments and are ignored
+# Coordinates are in world space (pixels from top-left of the full map)
+
+# --- Ground and main floor ---
+#0   0     1056  1920  24   0.0   0.0   Assets_background/bg_ground.jpeg
+
+# --- Fixed platforms ---
+0   225   879   332   48   0.0   0.0   Assets_background/platform.jpeg
+0   685   1201   338   48   0.0   0.0   Assets_background/platform.jpeg
+0   685   1660   353   50   0.0   0.0   Assets_background/platform.jpeg
+0   1073  1481   344   49   0.0   0.0   Assets_background/platform.jpeg
+0   1202   996   334   48   0.0   0.0   Assets_background/platform.jpeg
+0   1569   1254   338   48   0.0   0.0   Assets_background/platform.jpeg
+0   2075   1073   324   46   0.0   0.0   Assets_background/platform.jpeg
+0   2496   1481   310   44   0.0   0.0   Assets_background/platform.jpeg
+0   2712   855   335   48   0.0   0.0   Assets_background/platform.jpeg
+0   2963   1225   292   42   0.0   0.0   Assets_background/platform.jpeg
+0   3347   1033   279   40   0.0   0.0   Assets_background/platform.jpeg
+0   3626   1440   289   41   0.0   0.0   Assets_background/platform.jpeg
+0   3956   879   296   42   0.0   0.0   Assets_background/platform.jpeg
+
+# --- Moving platforms ---
+#1   200   400   180   24   130.0  0.0  Assets_background/pl_wood.jpg
+
+# --- Destructible platforms ---
+#2   600   300   140   24   0.0   0.0   Assets_background/pl_cracked.jpg
+#2   950   500   140   24   0.0   0.0   Assets_background/pl_cracked.jpg

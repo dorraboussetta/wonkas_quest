@@ -1,0 +1,25 @@
+# Level 2 platforms
+# Format: type  x  y  w  h  vel_x  vel_y  image
+# type: 0=fixed, 1=moving, 2=destructible
+# vel_x and vel_y are only used for moving platforms, set to 0 otherwise
+# Lines starting with # are comments and are ignored
+# Coordinates are in world space (pixels from top-left of the full map)
+
+# --- Ground floor ---
+0   0     868   1100  32   0.0   0.0   Assets_background/bg_ground.jpeg
+
+# --- Fixed platforms ---
+0   80    600   180   24   0.0   0.0   Assets_background/bg_ground.jpeg
+0   840   500   180   24   0.0   0.0   Assets_background/bg_ground.jpeg
+0   420   300   260   24   0.0   0.0   Assets_background/bg_ground.jpeg
+0   300   150   200   24   0.0   0.0   Assets_background/bg_ground.jpeg
+0   700   200   180   24   0.0   0.0   Assets_background/bg_ground.jpeg
+
+# --- Moving platforms ---
+1   100   450   180   24   100.0  0.0  Assets_background/pl_wood.jpg
+1   600   350   130   24   200.0  0.0  Assets_background/pl_wood.jpg
+
+# --- Destructible platforms ---
+2   250   700   140   24   0.0   0.0   Assets_background/pl_cracked.jpg
+2   550   580   140   24   0.0   0.0   Assets_background/pl_cracked.jpg
+2   800   720   140   24   0.0   0.0   Assets_background/pl_cracked.jpg
